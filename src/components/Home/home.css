@@ -1,0 +1,28 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+    
+    .home_box{
+        width: 100%;
+        height: 48rem;
+        background-image: url("../../assets/img/back01.png");
+    background-size: cover;
+    margin-top: -24px;
+    
+    }
+
+
+.home_img{
+    background-image: url("");
+}
+
+@media only screen and (max-width : 750px) {
+.home_box {
+        width: 100%;
+        height: 30rem;
+            background-size: cover;
+}
+
+
+}

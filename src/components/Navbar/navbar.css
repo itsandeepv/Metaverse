@@ -1,0 +1,41 @@
+
+.navbar_color{
+
+background-color: rgba(0,0,0,0.25);
+position: fixed;
+margin-top: 4rem;
+left: 5rem;
+z-index: 5;
+
+}
+
+
+
+
+.nav_links ul li img {
+    width: 90%;
+    height: auto;
+}
+.nav_logo a img {
+    width: 90%;
+        height: auto;
+        padding-left: 12px;
+}
+
+.cart_img a img {
+    padding: 12px 6px 12px 6px;
+}
+
+
+
+@media only screen and (max-width : 750px) {
+
+.nav_logo{
+    text-align: center;
+        display: none;
+            justify-content: center;
+}
+.nav_links ul{
+    margin-left: 1rem;
+}
+}

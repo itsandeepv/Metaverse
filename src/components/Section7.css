@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+.marketPlace {
+  background-image: url("../assets/img/2352\ 1.png");
+  height: 37rem;
+  background-size: cover;
+
+
+
+      position: relative;
+        top: 17rem;
+}
+.bg_marketPlace {
+  background-image: url("../assets/img/5695716\ 5.png");
+  height: 100%;
+
+
+
+}
+.bg_marketPlace h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #ffffff;
+  padding-top: 2rem;
+}
+.bg_marketPlace p {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  line-height: 26px;
+}
+.item_main {
+  /* display: flex; */
+  gap: px;
+
+}
+.item_data p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 18px;
+  /* width: 52%; */
+  color: #ffffff;
+}
+.color_backImg {
+  background-color: rgba(65, 77, 195, 1);
+  text-align: center;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+.item {
+  /* width: 22%; */
+  padding: 2rem;
+
+border-top: 1.3px solid #00FF29;
+
+  border-bottom: 1.3px solid #FFA800;
+  border-left: 1.3px solid #00FF29;
+  border-right: 1.3px solid #FFA800;
+
+
+
+  background-color: #080f52;
+  padding: 5px;
+  border-radius: 12px;
+}
+.item_data {
+  padding: 12px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.item h5 {
+  color: #ffffff;
+}
+.item a {
+  background: #37d078;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 3px 26px;
+  border-radius: 7px;
+}
+@media only screen and (max-width: 780px) {
+  .item_main {
+    display: block;
+  }
+  .item {
+    width: 83%;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+  .bg_marketPlace p {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    width: 100%;
+    line-height: 19px;
+  }
+  .bg_marketPlace h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 51px;
+    color: #ffffff;
+    padding-top: 2rem;
+  }
+
+
+.marketPlace{
+  height: 110rem;
+}
+
+}

@@ -1,0 +1,413 @@
+.backA img {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left: 176px;
+}
+
+
+.section2_img {
+    width: 100%;
+    height: 40rem;
+    background-image: url("../../../assets/img/5695716\ 2.png");
+    background-size: cover;
+
+}
+
+.setSect {
+    position: relative;
+    top: 9rem;
+    right: 3.5rem;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+
+
+
+
+.sideLogo img {
+    position: absolute;
+    left: 97px;
+    background-color: rgba(0, 0, 0, 0.25);
+    animation-name: logoAnimation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes logoAnimation {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(12px);
+    }
+}
+
+.backB img {
+    position: relative;
+    width: 70%;
+    height: auto;
+    left: 132px;
+}
+
+
+
+.iconA img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 2rem;
+}
+
+.iconB img {
+    position: relative;
+    top: -25rem;
+    width: 59%;
+    height: auto;
+    left: 8rem;
+}
+
+.section2_text {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+.section2_btn button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 26px; */
+    padding: 10px 45px;
+    /* or 162% */
+    background: #29264A;
+    border-radius: 3px;
+    border-top: 1.3px solid #00FF29;
+
+
+    border-bottom: 1.3px solid #FFA800;
+    border-left: 1.3px solid #00FF29;
+    border-right: 1.3px solid #FFA800;
+
+    color: #FFFFFF;
+}
+
+
+.section2_btn button:hover {
+
+    background-image: linear-gradient(to top, #FFA800, #00FF29);
+    transition: 0.3s;
+
+
+
+}
+
+
+.section2_subHead {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.section2_desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #FFFFFF;
+
+}
+
+.section2_desc address {}
+
+
+
+.section2_mob {
+    padding-top: 3rem;
+}
+
+.cart_back {
+    background-image: url("../../../assets/img/Meta_VerseCart/Rectangle\ 651.png");
+    background-size: contain;
+    padding: 10px;
+    height: 25rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102%;
+
+    /* background-repeat: no-repeat; */
+}
+
+.sect2_back {
+    background-image: url("../../../assets/img/sect2back/2193441\ 1.png");
+    background-size: cover;
+
+}
+
+.animation_img {
+    background-image: url("../../../assets/img/sect2back/2193441\ 1.png");
+    background-size: cover;
+    animation-name: backAni;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+
+
+}
+
+/* 
+@keyframes backAni {
+
+    from {
+      transform: translateY(0px);
+    } to {
+        transform: translateY(100px);
+
+    }
+} */
+
+
+
+
+.cart_back img {
+    width: 80%;
+    height: auto;
+}
+
+.cart_position {
+    top: -24rem;
+    position: relative;
+    z-index: 1;
+    left: 1rem;
+}
+
+.section2_text {
+    font-size: 30px;
+}
+
+
+
+.section3_img {
+    position: relative;
+    top: 18rem;
+    width: 100%;
+    height: 40rem;
+    background-image: url("../../../assets/img/section3_back/5695716\ 5.png");
+    background-size: cover;
+
+}
+
+.sect3_back {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/img/section3_back/2474215\ 1.png");
+    background-size: cover;
+    padding-top: 5rem;
+}
+
+.cont_back {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/img/section3_back/1_qkONvYhsFV63Sxsy7b32Hg.png");
+
+    background-size: contain;
+}
+
+.about_item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about_width {
+    width: 50%;
+}
+
+.about_item h2 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    /* line-height: 51px; */
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.about_item p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* line-height: 23px; */
+    /* or 128% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.about_box {
+    height: 9rem;
+}
+
+
+.about_box:hover {
+    
+    background-image: linear-gradient(to left, #191546 ,#2e22b1,#29264A );
+    transition: 0.3s;
+
+}
+
+
+
+
+.about_box h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+
+    color: #FFFFFF;
+}
+
+.about_box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    /* or 128% */
+
+
+    color: #FFFFFF;
+}
+
+
+
+
+@media only screen and (max-width : 750px) {
+    .sideLogo {
+        position: relative;
+        left: -80px;
+    }
+
+    .section2_mob {
+        padding: 2rem;
+    }
+
+    .sect3_back {
+        padding-top: 2rem;
+    }
+
+    .about_width {
+        width: 70%;
+    }
+
+    .about_center {
+        display: flex;
+        justify-content: end;
+    }
+
+    .commen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sideLogo {
+        width: 20px;
+        height: auto;
+    }
+
+
+    .backA img {
+        position: relative;
+        left: 23px;
+        top: 16px;
+    }
+
+
+    .backB img {
+        position: absolute;
+        left: 6rem;
+        top: 12rem;
+    }
+
+    .about_item h2 {
+        font-size: 20px;
+    }
+
+    about_item p {
+        font-size: 12px;
+    }
+
+    .about_box h5 {
+        font-size: 15px;
+    }
+
+    .about_box p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .about_box {
+        height: auto;
+    }
+
+    .cart_back {
+        height: 22rem;
+        width: 89%;
+    }
+
+
+    .cart_back img {
+        width: 65%;
+    }
+
+    .section3_img {
+        height: 52rem;
+    }
+
+    .section2_btn button {
+        padding: 6px 16px;
+        font-size: 10px;
+    }
+
+
+    .iconA img {
+        top: -3rem;
+    }
+
+    .iconB img {
+        left: 5rem;
+        top: -21;
+    }
+
+    .section2_img {
+        height: 70rem;
+    }
+
+}

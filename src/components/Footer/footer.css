@@ -1,0 +1,130 @@
+.footer_img {
+    position: relative;
+    top: 13.3rem;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../../assets//img/footerimg/blu.png");
+    background-size: cover;
+    /* z-index: 1; */
+}
+
+
+.footer_back {
+    /* background-image: url("../../assets/img/footerimg/WhatsApp\ Image\ 2022-10-19\ at\ 11.03.06.jpeg"); */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* opacity: 0.3; */
+}
+
+/* 
+.zindex{
+    z-index: 10;
+    opacity: 1;
+} */
+
+
+.footer_item {
+    padding-top: 1rem;
+}
+
+
+.footer_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #FFFFFF;
+}
+
+
+.page {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.join {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+
+
+.email_input input {
+    font-family: 'Roboto';
+    height: 54px;
+    width: 100%;
+    padding: 5px 12px;
+    border-radius: 3px;
+    border-top: 1.3px solid #00FF29;
+
+
+    border-bottom: 1.3px solid #FFA800;
+    border-left: 1.3px solid #00FF29;
+    border-right: 1.3px solid #FFA800;
+}
+
+.social_link {
+    width: 70%;
+}
+
+
+.subcri_btn {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #14A100;
+
+    position: relative;
+    /* right: -17rem; */
+    left: 16.4rem;
+    top: -3rem;
+    width: 25%;
+    height: 2.4rem;
+    border-radius: 3px;
+    border-top: 1.3px solid #00FF29;
+    background-color: transparent;
+
+    border-bottom: 1.3px solid #FFA800;
+    border-left: 1.3px solid #00FF29;
+    border-right: 1.3px solid #FFA800;
+
+}
+
+
+
+@media only screen and (max-width : 750px) {
+    .footer_img {
+        top: 9.3rem;
+        width: 100%;
+        height: 57rem;
+    }
+
+
+.footer_item p {
+    text-align: justify;
+    width: 97%;
+}
+
+}
